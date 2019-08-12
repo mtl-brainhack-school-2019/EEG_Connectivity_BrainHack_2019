@@ -5,6 +5,7 @@
 * The project consists in identifying wPLI connectomes that are relevant for encoding a visual stimulus in working memory.
 * [Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
 * [Fries](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/pascal_fries.jpg "Fries")
+[<img src="https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/pascal_fries.jpg" width="200" height="300">]
 
 ## Pre-processed Data
 - [X] On continuous signal, blinks and artefacts filtered + scalp current density (avoid volume conduction)
