@@ -1,10 +1,12 @@
 # EEG_Connectivity_BrainHack_2019
+### This is my repo for the project I've been working on during the [MONTREAL BRAINHACK SCHOOL](https://brainhackmtl.github.io/school2019/) from 5th to 30th August 2019.
+***
 * I would like to learn methods for assessing task-related EEG functional connectivity using machine learning tools.
 * [OHBM Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
-* RawData available: Scalp EEG data - Biosemi - 250 Hz - 64 electrodes
-* Subjects: 50 healthy humans 
-* Task: Visuo-spatial attention task (x trials per Main condition)
-* Hypotheses : Phase synchrony in γ band underly feedforward (blue) and in β band underly feedback communication (green) (proved on iEEG on Macaques and MEG). The project consists in identifying the same phenomenon in EEG: extracting wPLI connectomes in γ and β band that are relevant for encoding a visual stimulus in working memory. 
+* RAW DATA: Scalp EEG data - Biosemi - 250 Hz - 64 electrodes
+* SUBJECTS: 50 healthy humans 
+* TASK: Visuo-spatial attention task (x trials per Main condition)
+* HYPOTHESE : Phase synchrony in γ band underlies feedforward (green) and in β band underlies feedback communication (blue) (proved on iEEG on Macaques and MEG). The project consists in identifying the same phenomenon in EEG: extracting wPLI connectomes in γ and β band that are relevant for encoding a visual stimulus in working memory. 
 * [<img src="https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/pascal_fries.jpg" width="300" height="200">]
 
 ## Pre-processed Data
