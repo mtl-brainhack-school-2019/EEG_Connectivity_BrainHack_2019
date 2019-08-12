@@ -3,6 +3,7 @@ From scalp EEG data recorded on healthy humans during a visuo-spatial attention 
 [More about me](https://github.com/anna-monnier)
 
 ## Hypotheses and big question
+![Feedforward and Feedback influence - Pascal Fries ](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/master/Images/pascal_fries.jpg "pascal_Fries")
 Based on Pascal Fries work on iEEG on monkeys in visual attention field :
 * Gamma band phase lock between 2 areas underly a feedforward communication within visual, parietal, and frontal areas.
 * Beta phase lock between 2 areas underly a feedback influence
