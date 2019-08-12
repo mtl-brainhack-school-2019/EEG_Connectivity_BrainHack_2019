@@ -1,7 +1,7 @@
 # EEG_Connectivity_BrainHack_2019
 ### This is my repo for the project I've been working on during the [MONTREAL BRAINHACK SCHOOL](https://brainhackmtl.github.io/school2019/) from 5th to 30th August 2019.
 ***
-* I would like to learn methods for assessing task-related EEG functional connectivity using machine learning tools.
+* I would like to assess task-related EEG functional connectivity using machine learning tools and MNE library. 
 * [OHBM Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
 * RAW DATA: Scalp EEG data - Biosemi - 250 Hz - 64 electrodes
 * SUBJECTS: 50 healthy humans 
