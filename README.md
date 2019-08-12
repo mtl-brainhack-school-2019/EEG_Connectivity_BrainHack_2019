@@ -3,7 +3,7 @@
 * Subjects: 50 healthy humans 
 * Task: Visuo-spatial attention task (x trials per Main condition)
 * The project consists in identifying wPLI connectomes that are relevant for encoding a visual stimulus in working memory.
-* [Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
+* [Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
 * Hypotheses: Based on Pascal Fries work on iEEG on monkeys in visual attention field, Gamma band phase lock between 2 areas underly a feedforward communication within visual, parietal, and frontal areas.Beta phase lock between 2 areas underly a feedback influence.
  
 ## Pre-processed Data
