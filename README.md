@@ -3,11 +3,12 @@ From scalp EEG data recorded on healthy humans during a visuo-spatial attention 
 [More about me](https://github.com/anna-monnier)
 
 ## Hypotheses and big question
-![Feedforward and Feedback influence - Pascal Fries ](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/master/Images/pascal_fries.jpg "pascal_Fries")
+![Feedforward and Feedback influence - Pascal Fries ](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/master/pascal_fries.jpg "pascal_Fries")
 Based on Pascal Fries work on iEEG on monkeys in visual attention field :
 * Gamma band phase lock between 2 areas underly a feedforward communication within visual, parietal, and frontal areas.
 * Beta phase lock between 2 areas underly a feedback influence
-Are there wPLI networks (coupled Beta and Gamma) relevant for attention deployment and encoding in working memory of a visual stimulus ? If yes, what is the relevant time-frame to decode the 2 modes (attended vs ignored) ?
+* At a large scale, what are the wPLI networks (coupled Beta and Gamma) relevant for attention deployment and encoding in working memory of a visual stimulus ? 
+* What is the relevant time-frame to decode the 2 modes (attended vs ignored) based on these connectomes ?
 
 ## Aims on connectomes : Clustering 2 conditions (Attended vs Ignored)
 * Train a regression model or a machine learning model to classify trials in 2 groupes: (1) trials attended and memorized, (2) trials ignored based on the wPLI (weighted Phase Lag Index) connectomes timelines power. <br/>* 
@@ -17,7 +18,7 @@ Are there wPLI networks (coupled Beta and Gamma) relevant for attention deployme
 * FInd a statistica value publishable
 
 ## Aims on a link : Granger Causality
-* Identify a link from a connectome with Beta/Gamma relevant
+* Identify a link from a connectome with Beta/Gamma relevant for differentiating the 2 modes
 * Extract Granger causality value on (1) Gamma band and on (2) Beta band to identify if we corroborate Pascal Fries model of feedforward and feedback influence.
 
 ## Dataset
@@ -27,5 +28,5 @@ Are there wPLI networks (coupled Beta and Gamma) relevant for attention deployme
 * Trials segregated based on their caracteristic and bloc
 
 ## Tools/Language used
-* MATLAB EEGLAB
-* Python
+* MATLAB EEGLAB based data
+* Transform data in Python compliant
