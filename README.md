@@ -29,7 +29,7 @@
 * ANALYSE: Extract Granger causality value on (1) Gamma band and on (2) Beta band to identify if we corroborate Pascal Fries model of feedforward and feedback influence.
 
 ## Challenges / to do list
-- [ ] Settle my Environnement of work: Visual Box + Linux + Pyhton 3.6 + MNE + Jupyter ...
+- [X] Settle my Environnement of work: Visual Box + Linux + Pyhton 3.6 + MNE + Jupyter ...
 - [ ] Find the right architecture / package for cluster analyse
 - [ ] Find the right architecture / package for Granger Causality analyse
 - [ ] Make sens of the problem I pose: it could be decoded with the P3... so what is the added value of connectivity ?
@@ -42,7 +42,8 @@
 - [ ] Confusion matrix for trial prediction
 
 ## Deliverables for Brainhack school
-- [ ] Jupyter Notebook explaining all the process steps
+- [ ] Create a flow chart explaining all the process steps
+- [ ] Create a Jupyter Notebook with the code of a classifier
 - [ ] Training and Data preparation files added with some comments
 - [ ] Use matplotlib/Seaborn for visualizing features
 - [ ] R code for getting the stats ?
