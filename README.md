@@ -8,7 +8,7 @@
 * HYPOTHESE : Phase synchrony in γ band underlies feedforward (green) and in β band underlies feedback communication (blue) (proved on iEEG on Macaques and MEG). The project consists in identifying the same phenomenon in EEG: extracting wPLI connectomes in γ and β band that are relevant for encoding a visual stimulus in working memory. 
 * [<img src="https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/pascal_fries.jpg" width="300" height="200">]
 
-## Pre-processed Data
+## Pre-processed Data (from EEGLAB to PYTHON)
 - [X] On continuous signal, blinks and artefacts filtered + scalp current density (avoid volume conduction) (.bdf)
 - [X] 14 electrodes selectionned: Beta and Gamma filtered and Hilbert transform applied (.set)
 - [X] On 91 links, wPLI calculated for each band, then epoched on 800 ms. (.erp)
@@ -30,16 +30,10 @@
 
 ## Challenges / to do list
 - [X] Settle my Environnement of work: Visual Box + Linux + Pyhton 3.6 + MNE + Jupyter ...
-- [ ] Find the right architecture / package for cluster analyse
-- [ ] Find the right architecture / package for Granger Causality analyse
+- [ ] Settle my Environnement on REMOTE CUMPUTER
+- [ ] Arrange / preprocess the first DATASET
+- [ ] Find the right architecture for classifier and GC
 - [ ] Make sens of the problem I pose: it could be decoded with the P3... so what is the added value of connectivity ?
-
-## Machine Learning architecture
-- [ ] Use pandas and sklearn
-- [ ] Separate data: Train, Validation, Test
-- [ ] Define Architecture: Train network on 50 subjects and X trials on remaining 2 subjects -> accuracy good enough ? How many folds ?
-- [ ] Choose parameters for good trial classifier
-- [ ] Confusion matrix for trial prediction
 
 ## Deliverables for Brainhack school
 - [ ] Create a flow chart explaining all the process steps
