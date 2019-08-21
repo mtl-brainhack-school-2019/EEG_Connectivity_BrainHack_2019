@@ -1,7 +1,7 @@
-# DECODING EEG single trials and connectomes
+# Classify EEG single trials and connectomes
 ## This is my repo for my project of [MONTREAL BRAINHACK SCHOOL](https://brainhackmtl.github.io/school2019/) from 5th to 30th August 2019.
 ***
-* __GOAL: Classify EEG task-related single trials and functional connectivity using machine learning tools and/or MNE library. 
+* __GOAL: Classify EEG task-related single trials and functional connectivity using machine learning tools like MNE library. 
 * __THEORY__: check my [OHBM Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
 * __RAW DATA__: Scalp EEG data - Biosemi - 512 Hz - 64 electrodes - 50 healthy humans (.bdf)
 * __TASK__: Visuo-spatial attention task (about 250 trials per Main condition per subject)
