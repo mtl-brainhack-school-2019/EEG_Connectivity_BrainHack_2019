@@ -1,13 +1,13 @@
 # DECODING EEG single trials and connectomes
 ## This is my repo for my project of [MONTREAL BRAINHACK SCHOOL](https://brainhackmtl.github.io/school2019/) from 5th to 30th August 2019.
 ***
-* I would like to assess EEG task-related single trials and functional connectivity using machine learning tools and/or MNE library. 
-* [OHBM Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
-* RAW DATA: Scalp EEG data - Biosemi - 512 Hz - 64 electrodes - 50 healthy humans 
-* TASK: Visuo-spatial attention task (about 250 trials per Main condition per subject)
+* __GOAL: Classify EEG task-related single trials and functional connectivity using machine learning tools and/or MNE library. 
+* __THEORY__: check my [OHBM Poster of the project](https://github.com/mtl-brainhack-school-2019/EEG_Connectivity_BrainHack_2019/blob/master/Anne_Monnier_OHBM_Connectomes.pdf "Poster")
+* __RAW DATA__: Scalp EEG data - Biosemi - 512 Hz - 64 electrodes - 50 healthy humans (.bdf)
+* __TASK__: Visuo-spatial attention task (about 250 trials per Main condition per subject)
 
 ## Pre-processed Data (from EEGLAB to PYTHON)
-- [X] For ERP: On continuous signal (Raw, .bdf), blinks and artefacts filtered and then segmented (.set + .ftd)
+- [X] For ERP: On continuous signal (Raw, .bdf), blinks and artefacts filtered and then segmented on ERPLAB/EEGLAB (.set + .ftd)
 - [X] For wPLI:  On continuous signal, SCD applied (Raw, .bdf), blinks and artefacts filtered, 14 electrodes selectionned, Beta and Gamma filtered and Hilbert transform applied and wPLI (.erp), and then 10 ICA (connectomes) (.mat)
 - [ ] Data dimension structured as epochs, to be compliant with Python process (initially EEGLAB/MATLAB)
 
