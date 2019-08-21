@@ -1,4 +1,4 @@
-# DECODING EEG ERP and connectomes
+# DECODING EEG single trials and connectomes
 ## This is my repo for my project of [MONTREAL BRAINHACK SCHOOL](https://brainhackmtl.github.io/school2019/) from 5th to 30th August 2019.
 ***
 * I would like to assess EEG task-related single trials and functional connectivity using machine learning tools and/or MNE library. 
@@ -12,15 +12,15 @@
 - [ ] Data dimension structured as epochs, to be compliant with Python process (initially EEGLAB/MATLAB)
 
 ## GOAL (1) Classify into 2 clusters whatever Epoch: Attended vs Ignored
-* THE PROBLEM IN WORDS: Each epoch, as a voltage signal (ERP) or a feature weight (ICA), will be the input to a two-state classifier (attended vs ignored). The performance of the classifier will provide a multivariate analysis showing in what time periods the features support classification, and which contribute more.
-* ALGORITHM: Train a regression model (or a LDA, or SVM model) to classify trials in 2 groups. 
+* __THE PROBLEM IN WORDS__: Each epoch, as a voltage signal (ERP) or a feature weight (ICA), will be the input to a two-state classifier (attended vs ignored). The performance of the classifier will provide a multivariate analysis showing in what time periods the features support classification, and which contribute more.
+* __ALGORITHM__: Train a regression model (or a __LDA__, or SVM model) to classify trials in 2 groups. 
 * Identify which connectome(s) and during which time course is relevant to this attending / memorizing process.
 * --> Find a performance values (accurancy...) publishable !! and a nice vizualization !!!!
 
 ## GOAL (2) Implement Granger Causality function for a relevant link
-* DATASET IS (.set): The analyses will use the Hilbert transform data of each channel of relevant link (/91).
-* PREPROCESS: Identify a link from a connectome with Beta/Gamma relevant for differentiating the 2 modes
-* ANALYSE: Extract Granger causality value on (1) Gamma band and on (2) Beta band to identify if we corroborate Pascal Fries model of feedforward and feedback influence.
+* __DATASET (.set)__: The analyses will use the Hilbert transform data of each channel of relevant link (/91).
+* __PREPROCESS__: Identify a link from a connectome with Beta/Gamma relevant for differentiating the 2 modes
+* __ANALYSE__: Extract Granger causality value on (1) Gamma band and on (2) Beta band to identify if we corroborate Pascal Fries model of feedforward and feedback influence.
 
 - - - -
 
