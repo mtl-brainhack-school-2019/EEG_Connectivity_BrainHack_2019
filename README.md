@@ -28,11 +28,12 @@
 - [X] Settle my Environnement on MY COMPUTER: Visual Box + Ubuntu + Pyhton 3.6 + MNE + Jupyter.
 - [X] Settle my Environnement on POWERFUL REMOTE CUMPUTER in my lab
 - [X] Arrange / preprocess the first DATASET (.set)
-- [ ] Find the right architecture and algorithme (LDA/SVD...) for classifier and GC (find a template on github...)
-- [ ] Find a nice visualization of results with 2 clusters
+- [X] Find the right architecture and algorithme (Yes a Linear Regressor !...) for classifier
+- [ ] Find a nice visualization of results
 
 ## Deliverables for Brainhack school :muscle: :muscle: :muscle:
-- [ ] Create a video explaining my project
-- [ ] Create a Jupyter Notebook with the code of a classifier
+- [X ] Create a video explaining my project
+- [X ] Create a Jupyter Notebook with the code of a classifier
 - [ ] Extract the stats
-- [ ] Use matplotlib/Seaborn for visualizing features
+- [X] Use matplotlib for visualizing features
+- [] Use Seaborn for visualizing features
